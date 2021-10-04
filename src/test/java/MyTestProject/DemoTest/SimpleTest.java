@@ -13,5 +13,11 @@ public class SimpleTest {
 		assertTrue(a+b ==3);
 		
 	}
+	@Test
+	public void sampleFaill() {
+		int a = 5;
+		int b = 5;
+		assertTrue(a+b==10);
+	}
 
 }
